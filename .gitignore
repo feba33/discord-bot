@@ -1,0 +1,25 @@
+# Dependencies
+/deps.ts
+/deps.js
+
+# Compiled output
+/dist/
+/build/
+
+# Deno cache
+/.deno/gen/
+/.deno/deps/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Node modules (if using npm)
+node_modules/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.http

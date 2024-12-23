@@ -11,7 +11,8 @@
       "jsr:@std/media-types@^1.0.3": "jsr:@std/media-types@1.0.3",
       "jsr:@std/net@^1.0.4": "jsr:@std/net@1.0.4",
       "jsr:@std/path@^1.0.6": "jsr:@std/path@1.0.6",
-      "jsr:@std/streams@^1.0.6": "jsr:@std/streams@1.0.6"
+      "jsr:@std/streams@^1.0.6": "jsr:@std/streams@1.0.6",
+      "npm:@types/node": "npm:@types/node@18.16.19"
     },
     "jsr": {
       "@std/assert@1.0.6": {
@@ -56,9 +57,18 @@
       "@std/streams@1.0.6": {
         "integrity": "022ed94e380d06b4d91c49eb70241b7289ab78b8c2b4c4bbb7eb265e4997c25c"
       }
+    },
+    "npm": {
+      "@types/node@18.16.19": {
+        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
+        "dependencies": {}
+      }
     }
   },
-  "remote": {},
+  "remote": {
+    "https://esm.sh/tweetnacl@v1.0.3?dts": "13133e31846263021452da8b831805de7b0694a5dc56f4c5567629c8aba589fd",
+    "https://esm.sh/v135/tweetnacl@1.0.3/denonext/tweetnacl.mjs": "b4b0ea92630faa255eef33b2ac85734313cd8930834375bb2527392f1823775e"
+  },
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@1",
